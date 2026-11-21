@@ -43,7 +43,8 @@
    - V3：`plugins.v3/hardlinkcleaner/`
    - V2：`plugins.v2/hardlinkcleaner/`
 3. 将 `package.v3.json`（或 `package.v2.json`）中的 `HardlinkCleaner` 条目合并进仓库根目录同名文件；
-4. 在 MoviePilot「设定 → 服务 → 插件市场」中添加你的仓库地址，然后在插件市场搜索「硬链媒体库清理」安装。
+4. 在 MoviePilot「设定 → 服务 → 插件市场」中添加**完整仓库地址**，例如：
+   `https://github.com/sanjin197/MoviePilot-Plugins`（V3 必须带 owner/repository，只填 `https://github.com/用户名/` 会提示缺少 owner 或 repository），然后在插件市场搜索「硬链媒体库清理」安装。
 
 > V3 宿主只读取 `package.v3.json`；只提交 `package.v2.json` 会搜不到插件。
 
