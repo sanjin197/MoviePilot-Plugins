@@ -1385,5 +1385,20 @@
       "v1.1.0": "详情页改为状态仪表盘（状态环、当前IP、四格指标，异常时才展开明细与二维码），配置页改为分区卡片并折叠高级项；补充测试目录与 pyproject.toml",
       "v1.0.0": "首个版本：IPv4 专用源与 ipaddress 严格校验、HTTP 探活保活与 Set-Cookie 续期、待同步自动补写、写入后回读校验、可配置周期与超时"
     }
+  },
+  "HardlinkCleaner": {
+    "name": "硬链媒体库清理",
+    "description": "同步硬链接媒体库中的所有剧集与电影，按剧集/电影维度一键清理：删除媒体库链接文件与下载目录源文件，并可选删除整理记录、订阅记录，支持下载器联动与两步确认。",
+    "labels": "清理,媒体库,硬链接,订阅,源文件",
+    "version": "3.0.0",
+    "icon": "https://raw.githubusercontent.com/jxxghp/MoviePilot-Plugins/main/icons/clean.png",
+    "author": "sanjin197",
+    "level": 2,
+    "system_version": ">=3.0.0",
+    "release": true,
+    "history": {
+      "v3.0.0": "适配 MoviePilot V3 稳定契约：app.sdk 导入、app.db.oper 数据访问、media_source + media_id 身份匹配；移除 V3 已裁剪的下载历史删除；内置媒体后缀清单。"
+    },
+    "plugin_readme": "https://raw.githubusercontent.com/sanjin197/MoviePilot-Plugins/main/plugins.v3/hardlinkcleaner/README.md"
   }
 }
